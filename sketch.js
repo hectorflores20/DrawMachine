@@ -4,5 +4,8 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+
+  if (mouseIsPressed == true){
+    ellipse(mouseX, mouseY, 10, 10);
+  }
 }
