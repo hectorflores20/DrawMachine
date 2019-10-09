@@ -14,8 +14,8 @@ function draw() {
   background(220, 50, 133, 5);
   strokeWight(strokeWight);
 
-  noiseOffset = noiseOffset + 0.01;
-  stokeWeight = noise(noiseOffset) * 10;
+  noiseOffset = noiseOffset + 0.05;
+  stokeWeight = noise(noiseOffset) * 100;
 
     stroke(map(mouseX, 0, 600, 0, 255, true))
     line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
