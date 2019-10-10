@@ -4,7 +4,7 @@ let strokeWight = 5;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(220);
+  background(220, 50, 133);
 
 
 
