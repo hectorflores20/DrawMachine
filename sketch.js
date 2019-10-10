@@ -1,6 +1,6 @@
 
 let noiseOffset = 0.0;
-let strokeWight = 5;
+let strokeWidht = 5;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -12,7 +12,7 @@ function setup() {
 
 function draw() {
   background(220, 50, 133, 5);
-  strokeWight(strokeWight);
+  strokeWight(strokeWidht);
 
   noiseOffset = noiseOffset + 0.05;
   stokeWeight = noise(noiseOffset) * 100;
@@ -33,7 +33,3 @@ function draw() {
     }
 
   }
-
-
-
-}
