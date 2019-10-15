@@ -2,7 +2,7 @@
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(200, 50, 133);
+  background(0, 128, 128);
 
   strokeWeight(5);
 
@@ -23,7 +23,7 @@ function keyTyped(){
   if (key === 's'){
     // save this images
     saveCanvas('fileName', 'png');
-  } else if (key === 'd'){
+  } else if (key === 'c'){
     // clear the image
     clear();
 
