@@ -1,10 +1,10 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(0, 128, 128); 
+  background(0, 128, 128);
 
   strokeWeight(5);
 
-}
+}s
 
 function draw() {
 
@@ -12,6 +12,7 @@ function draw() {
     stroke(map(mouseX, 0, 600, 0, 255, true))
     line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
     line(mouseX, mouseY, pmouseX, pmouseY);
+
   }
 
 }
