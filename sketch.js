@@ -4,9 +4,9 @@ function setup() {
 
   strokeWeight(5);
 
-}s
+}
 
-function draw() {
+function draw() { 
 
   if (mouseIsPressed){
     stroke(map(mouseX, 0, 600, 0, 255, true))
